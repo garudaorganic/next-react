@@ -34,7 +34,7 @@ export default function WhatsAppButton({
   // Check if the URL is for Organic A2 Cow Milk
   const isOrganicA2CowMilk =
     whatsappUrl ===
-    "https://wa.me/919537787871?text=Hi%2C%20I'm%20interested%20in%20purchasing%20Organic%20A2%20Cow%20Milk%20from%20your%20website.";
+    "https://wa.me/919537787871?text=Hi%2C%20I'm%20interested%20in%20purchasing%20Pure%20A2%20Gir%20Cow%20Milk%20from%20your%20website.";
 
   if (isOrganicA2CowMilk) {
     // Render alternative button
