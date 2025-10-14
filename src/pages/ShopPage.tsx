@@ -182,16 +182,15 @@ export default function ShopPage({ onNavigate, categoryFilter }: ShopPageProps) 
                       >
                         View Details
                       </button>
-                      {/* <WhatsAppButton
-                        productName={product.name}
-                        className="px-4 py-2 rounded text-sm"
-                      /> */}
+                      
+
                       {product.name !== 'Organic A2 Cow Milk' && (
                         <WhatsAppButton
                           productName={product.name}
                           className="px-4 py-2 rounded text-sm"
                         />
                       )}
+                      
                     </div>
                   </div>
                 </div>
