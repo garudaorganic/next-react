@@ -39,14 +39,12 @@ export default function WhatsAppButton({
   if (isOrganicA2CowMilk) {
     // Render alternative button
     return (
-      <button
-        onClick={() => onNavigate?.('milk')}
-        className={`${
-          currentPage === 'milk' ? 'text-green-700' : 'text-gray-700'
-        } hover:text-green-600 transition-colors font-medium ${className}`}
+      <a
+        
+        className={`inline-flex items-center justify-center gap-2 bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors ${className} wp-btn`}
       >
         Go to milk page
-      </button>
+      </a>
     );
   }
 
