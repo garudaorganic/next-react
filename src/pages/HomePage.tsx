@@ -191,16 +191,11 @@ export default function HomePage({ onNavigate }: HomePageProps) {
                     >
                       View Details
                     </button>
-                    
-
-                    {product.name !== 'Organic A2 Cow Milk' && (
-                      <WhatsAppButton
-                        pageType="other"
-                        productName={product.name}
-                        className="px-4 py-2 rounded text-sm"
-                      />
-                    )}
-
+                    <WhatsAppButton
+                      pageType="other"
+                      productName={product.name}
+                      className="px-4 py-2 rounded text-sm"
+                    />
                   </div>
                 </div>
               </div>

@@ -3,9 +3,11 @@ import { MessageCircle } from 'lucide-react';
 interface WhatsAppButtonProps {
   productName?: string;
   message?: string;
-  pageType?: 'milk' | 'other'; 
+  pageType?: 'milk' | 'other'; // Add page type for dynamic number
   className?: string;
   children?: React.ReactNode;
+  currentPage?: string;
+  onNavigate?: (page: string) => void;
 }
 
 export default function WhatsAppButton({
@@ -14,8 +16,10 @@ export default function WhatsAppButton({
   pageType = 'other',
   className = '',
   children,
+  currentPage,
+  onNavigate,
 }: WhatsAppButtonProps) {
- 
+  // Set WhatsApp number based on pageType
   const whatsappNumber =
     pageType === 'milk' ? '919586787871' : '919537787871';
 
@@ -27,6 +31,26 @@ export default function WhatsAppButton({
     defaultMessage
   )}`;
 
+  // Check if the URL is for Organic A2 Cow Milk
+  const isOrganicA2CowMilk =
+    whatsappUrl ===
+    "https://wa.me/919537787871?text=Hi%2C%20I'm%20interested%20in%20purchasing%20Organic%20A2%20Cow%20Milk%20from%20your%20website.";
+
+  if (isOrganicA2CowMilk) {
+    // Render alternative button
+    return (
+      <button
+        onClick={() => onNavigate?.('milk')}
+        className={`${
+          currentPage === 'milk' ? 'text-green-700' : 'text-gray-700'
+        } hover:text-green-600 transition-colors font-medium ${className}`}
+      >
+        Go to milk page
+      </button>
+    );
+  }
+
+  // Otherwise render normal WhatsApp link
   return (
     <a
       href={whatsappUrl}
