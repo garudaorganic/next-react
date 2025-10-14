@@ -43,7 +43,7 @@ export default function WhatsAppButton({
         
         className={`inline-flex items-center justify-center gap-2 bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors ${className} wp-btn`}
       >
-        Go to milk page
+        Visit Milk
       </a>
     );
   }
