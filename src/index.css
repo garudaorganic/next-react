@@ -277,6 +277,24 @@ section.py-12.bg-gray-50.milk-condition {
   img.mobile-banner.block.md\:hidden.absolute.inset-0.w-full.h-full.object-cover {
     object-fit: unset;
 }
+.video-container {
+    height: auto;
+}
+.video-overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: #DFDAC0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+p.video-description {
+    color: #000;
+}
 }
 
 @media only screen and (min-width: 769px) {
