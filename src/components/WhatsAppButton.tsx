@@ -50,8 +50,6 @@ interface WhatsAppButtonProps {
   pageType?: 'milk' | 'other'; // Add page type for dynamic number
   className?: string;
   children?: React.ReactNode;
-  currentPage?: string;
-  onNavigate?: (page: string) => void;
 }
 
 export default function WhatsAppButton({
@@ -60,8 +58,6 @@ export default function WhatsAppButton({
   pageType = 'other',
   className = '',
   children,
-  currentPage,
-  onNavigate,
 }: WhatsAppButtonProps) {
   // Set WhatsApp number based on pageType
   const whatsappNumber =
