@@ -220,7 +220,7 @@ export default function AboutPage() {
             <div className="group text-center">
               <div className="relative overflow-hidden rounded-lg mb-4">
                 <img
-                  src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="https://ik.imagekit.io/fhzl3efmm/user.png?updatedAt=1752248009316"
                   alt="Founder"
                   className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-300"
                   style={{ height: '30rem', objectFit: 'fill' }}
@@ -240,7 +240,7 @@ export default function AboutPage() {
             <div className="group text-center">
               <div className="relative overflow-hidden rounded-lg mb-4">
                 <img
-                  src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="https://ik.imagekit.io/fhzl3efmm/user.png?updatedAt=1752248009316"
                   alt="Operations Head"
                   className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-300"
                   style={{ height: '30rem', objectFit: 'fill' }}
