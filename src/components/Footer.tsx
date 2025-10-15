@@ -36,10 +36,10 @@ export default function Footer({ onNavigate }: FooterProps) {
               Premium organic products for a healthier, more sustainable lifestyle. Committed to quality, purity, and environmental responsibility.
             </p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com/garudaorganic" target="_blank" className="hover:text-green-500 transition-colors">
+              <a href="https://www.facebook.com/people/Garuda-organic/61571724730556/#" target="_blank" className="hover:text-green-500 transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="https://instagram.com/garudaorganic" target="_blank" className="hover:text-green-500 transition-colors">
+              <a href="https://instagram.com/garuda_organic/" target="_blank" className="hover:text-green-500 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="https://twitter.com/garudaorganic" target="_blank" className="hover:text-green-500 transition-colors">
