@@ -357,7 +357,7 @@ export default function MilkPage({ onNavigate }: MilkPageProps) {
             <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-green-600 transition-colors">
               <h3 className="text-2xl font-bold mb-4">Sample 3 Days</h3>
               <div className="text-4xl font-bold text-green-700 mb-2">₹120</div>
-              <p className="text-gray-600 mb-6">per 500ml bottle</p>
+              <p className="text-gray-600 mb-6">per 1 Liter bottle</p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-green-600" />
