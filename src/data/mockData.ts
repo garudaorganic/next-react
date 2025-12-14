@@ -25,10 +25,10 @@ export const products: Product[] = [
     review_count: 156,
     ingredients: '100% Pure A2 Cow Milk from Indigenous Gir Cows (No preservatives, No additives)',
     nutritional_info: { 'Energy': '191.2 kcal', 'Moisture': '83.9 %', 'Protein': '3.2 gm', 'Beta Casein A2': '1.2 gm', 'Total Fat': '5.6 gm', 'Carbohydrate': '7.3 gm', 'Sugar(Lactos)': '4.8 gm', 'Calcium': '110.5 gm', 'Vitamin A': '17.5 gm' },
-    // images: [
-    //   { id: '1', product_id: '1', image_url: 'https://images.pexels.com/photos/236010/pexels-photo-236010.jpeg?auto=compress&cs=tinysrgb&w=1200', alt_text: 'A2 Cow Milk', display_order: 0 },
-    //   { id: '2', product_id: '1', image_url: 'https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=1200', alt_text: 'Fresh Milk', display_order: 1 },
-    // ],
+    images: [
+      { id: '1', product_id: '1', image_url: '', alt_text: 'A2 Cow Milk', display_order: 0 },
+      { id: '2', product_id: '1', image_url: '', alt_text: 'Fresh Milk', display_order: 1 },
+    ],
     category: categories[0],
   },
   {
