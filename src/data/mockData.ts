@@ -49,10 +49,10 @@ export const products: Product[] = [
     ingredients: 'Pure Bilona Ghee made from A2 Gir Cow Milk (No preservatives or artificial color)',
     nutritional_info: { 'Energy': '900 kcal', 'Fat': '99.8 g', 'Saturated Fat': '65 g', 'Monounsaturated Fat': '30 g', 'Polyunsaturated Fat': '4 g', 'Carbohydrates': '0 g',  'Cholesterol': '157 mg', 'Vitamin A': '700 µg' },
     images: [
-      { id: '3', product_id: '2', image_url: 'https://ik.imagekit.io/fhzl3efmm/Artboard%204.jpg', alt_text: 'Desi Ghee', display_order: 0 },
+      { id: '3', product_id: '2', image_url: 'https://ik.imagekit.io/fhzl3efmm/Artboard%201.jpg', alt_text: 'Desi Ghee', display_order: 0 },
       { id: '4', product_id: '2', image_url: 'https://ik.imagekit.io/fhzl3efmm/Artboard%203.jpg', alt_text: 'Pure Ghee', display_order: 1 },
       { id: '5', product_id: '2', image_url: 'https://ik.imagekit.io/fhzl3efmm/Artboard%202.jpg', alt_text: 'Pure Desi Ghee', display_order: 2 },
-      { id: '6', product_id: '2', image_url: 'https://ik.imagekit.io/fhzl3efmm/Artboard%201.jpg', alt_text: 'Desi Pure Ghee', display_order: 3 },
+      { id: '6', product_id: '2', image_url: 'https://ik.imagekit.io/fhzl3efmm/Artboard%204.jpg', alt_text: 'Desi Pure Ghee', display_order: 3 },
     ],
     category: categories[2],
   },
